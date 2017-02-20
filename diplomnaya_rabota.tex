@@ -1,0 +1,209 @@
+\documentclass[pdftex,ptm,12pt,a4paper]{report}
+\renewcommand{\baselinestretch}{1.5}
+\setcounter{secnumdepth}{5}
+
+% PDF search & cut'n'paste
+\usepackage{cmap}
+\usepackage[table,xcdraw]{xcolor}
+
+% Cyrillic support
+\usepackage{mathtext}
+\usepackage{amsmath}
+\usepackage[T1,T2A]{fontenc}
+\DeclareSymbolFont{T2Aletters}{T2A}{cmr}{m}{it}
+\usepackage[utf8]{inputenc}
+
+\usepackage[bottom=20mm,top=20mm,right=20mm,left=30mm,headsep=0cm,nofoot]{geometry}
+
+\usepackage{array}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+\makeatletter
+\renewcommand*{\ps@plain}{%
+  \let\@mkboth\@gobbletwo
+  \let\@oddhead\@empty
+  \def\@oddfoot{%
+    \reset@font
+    \hfil
+    \thepage
+    % \hfil % removed for aligning to the right
+  }%
+  \let\@evenhead\@empty
+  \let\@evenfoot\@oddfoot
+}
+\makeatother
+\pagestyle{plain}
+
+\usepackage[pdftex]{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage[russian,english]{babel}
+    \addto{\captionsenglish}{\renewcommand{\bibname}{Литература}}
+    \addto\captionsenglish{\renewcommand{\figurename}{Рис.}}
+    \addto\captionsenglish{\renewcommand{\contentsname}{Содержание}}
+    \addto\captionsenglish{\renewcommand{\proofname}{Доказательство}}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{abstract}
+\usepackage{float}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\renewcommand*{\proofname}{Доказательство}
+\usepackage{indentfirst}
+\usepackage{color}
+\usepackage{natbib}
+\usepackage{bbm, dsfont}
+
+
+% Detect whether PDFLaTeX is in use
+\usepackage{ifpdf}
+
+% Fix links to floats
+\usepackage[all]{hypcap}
+
+\makeatletter
+\renewcommand{\@chapapp}{Часть}
+\makeatother
+
+% Theorem Styles
+\newtheorem{theorem}{Теорема}[chapter]
+\newtheorem{lemma}[theorem]{Лемма}
+\newtheorem{claim}[theorem]{Теорема}
+% Definition Styles
+\theoremstyle{definition}
+\newtheorem{definition}{Определение}[chapter]
+\newtheorem{example}{Пример}[chapter]
+% Rule for Title Page
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+
+\begin{document}
+
+\begin{titlepage}
+\newpage
+
+\begin{center}
+МИНИСТЕРСТВО ОБРАЗОВАНИЯ И НАУКИ РОССИЙСКОЙ ФЕДЕРАЦИИ \\
+\vspace{0.5cm}
+ГОСУДАРСТВЕННОЕ ОБРАЗОВАТЕЛЬНОЕ УЧРЕЖДЕНИЕ \\*
+ВЫСШЕГО ПРОФЕССИОНАЛЬНОГО ОБРАЗОВАНИЯ\\*
+"МОСКОВСКИЙ ФИЗИКО-ТЕХНИЧЕСКИЙ ИНСТИТУТ \\*
+(ГОСУДАРСТВЕННЫЙ УНИВЕРСИТЕТ)" \\*
+\vspace{0.5cm}
+ФАКУЛЬТЕТ ИННОВАЦИЙ И ВЫСОКИХ ТЕХНОЛОГИЙ \\*
+КАФЕДРА АНАЛИЗА ДАННЫХ \\*
+\hrulefill
+\end{center}
+
+
+\vspace{8em}
+
+\begin{center}
+\Large Выпускная квалификационная работа по направлению 01.03.02 <<Прикладные математика и информатика>> \linebreak НА ТЕМУ:
+\end{center}
+
+\vspace{2.5em}
+
+\begin{center}
+\textsc{\large{\textbf{НЕЙРОСЕТЕВЫЕ МОДЕЛИ В ЗАДАЧАХ ИНТЕРПРЕТАЦИИ ДАННЫХ ФМРТ ПРИ АУДИАЛЬНОЙ СТИМУЛЯЦИИ}}}
+\end{center}
+
+\vspace{6.5em}
+
+\begin{flushleft}
+Студент \hrulefill Медведева А.Е. \\
+\vspace{1.5em}
+Научный руководитель д.ф-м.н \hrulefill Артемов А.В.\\
+\vspace{1.5em}
+Зам. зав. кафедрой д.ф-м.н, профессор \hrulefill Бунина Е.И.
+\end{flushleft}
+
+\vspace{\fill}
+
+\begin{center}
+МОСКВА, 2017
+\end{center}
+
+\end{titlepage}
+
+\tableofcontents
+
+\sloppy
+
+%\chapter{Введение}
+
+\chapter{Общая постановка эксперимента}
+\section{ФМРТ в измерении активности мозга}
+
+Функциональная магнитно-резонансная томография, или ФМРТ, - это метод измерения активности головного мозга. Он работает путем обнаружения изменений насыщения крови кислородом, а также потоков крови, возникающих в ответ на нейронную активность. Когда зона мозга более активна, она потребляет больше кислорода, и чтобы удовлетворить этот растущий спрос, увеличивается приток крови к рабочей области. ФМРТ может быть использована для создания карт активности, показывающих, какие части мозга вовлечены в конкретный психический процесс.
+
+Каждое ФМРТ измерение -- последовательность трехмерных сканов мозга, где каждый скан есть набор значений сигнала на каждом маленьком участке мозга, называемым вокселем и представляющим собой параллелепипед с сторонами порядка нескольких милиметров (см. \ref{fmri_result}).
+
+
+\begin{figure}[h]
+\includegraphics[scale=0.2]{fmrt_result.png}
+\centering
+\caption{ФМРТ измерение.}
+\label{fmri_result}
+\end{figure}
+
+ФМРТ имеет несколько преимуществ перед другими методами измерения мозговой активности:
+\begin{enumerate}
+\item Этот метод является неинвазивным и не использует рентгеновское излучение, что делает его безопасным для человека.
+
+\item Имеет хорошую пространственно-временное разрешение. На рисунке \ref{fmri} показано сравнение ФМРТ с другими методами измерения активности мозга, такими как энцефалография(МЭГ, ЭЭГ) и позитронно-эмисионная томография (ПЭТ).
+
+\begin{figure}[h]
+\includegraphics[scale=0.3]{fmrt.jpg}
+\centering
+\caption{Сравнение ФМРТ, ПЭТ и МЭГ.}
+\label{fmri}
+\end{figure}
+
+\item Его легко использовать для постановки экспериментов.
+\end{enumerate}
+
+Из недостатков можно выделить следующие:
+
+\begin{enumerate}
+\item Для точного измерения необходимо, чтобы человек оставался неподвижным. Движения головы, вызванные биением сердца, дыханием и  ерзаньем, являются одним из основных источников шума.
+
+\item Наличие шума, вызванного неоднородностью магнитного поля, используемого для измерения.
+
+\item ФМРТ измеряет уровень активности не напрямую, а косвенно.
+
+\item Уровень насыщения крови, который измеряет ФМРТ, изменяется очень медленно. Его изменение происходит с некоторой задержкой, (обычно порядка пары секунд), так как необходимо некоторое время для сосудистой системы в ответ на потребность мозга в глюкозе. После чего он обычно поднимается до пика примерно через 5 секунд после стимула. Если нейроны остаются активными, пик распространяется на плоское плато. После остановки деятельности, сигнал падает ниже исходного уровня -- явление, называемое недолетом. С течением времени сигнал восстанавливается до базовой линии (см. \ref{hrf}). 
+
+\begin{figure}[h]
+\includegraphics[scale=0.4]{hrf.png}
+\centering
+\caption{Уровень насыщения крови в зависимости от времени.}
+\label{hrf}
+\end{figure}
+
+\end{enumerate}
+
+\section{Дизайн эксперимента}
+
+В типичном эксперименте с помощью ФМРТ по внешнему стимулу строится матрица признаков $\textbf{X}.$ Например, при аудиальной стимуляции строки матрицы $\textbf{X}$ -- векторы, соответствующие словам из текста аудио. Измерения ФМРТ -- матрица ответов $Y,$ столбцы которой соотвествуют вокселям, строки -- вектор активации мозга в конкретный момент времени.
+
+
+\chapter{Обзор литературы}
+\section{Семантический атлас мозга}\label{complex}
+
+Работа \cite{huth2016natural} группы американский нейробиологов посвящена созданию семантического атласа мозга на основе данных, полученных с помощью ФМРТ. Ученым удалось выделить области на фронтальной коре, ответственные за конкретные семантический группы, такие как социальные явления, абстрактные понятия, количественные слова. Эксперимент был построен следующим образом: 8 испытуемых слушали 2 часа рассказы из радиопередачи. После чего авторы подсчитали матрицу совместной встречаемости каждого слова из текста аудио и 985 самых частоупотребимых английских слов. Каждая строка этой матрицы соответствовала представлению слова из ауди в 985-мерном пространстве. Для установления зависимости между признаками аудиостимула и измерениями ФМРТ авторы использовали гребневую регрессию. Далее изучались вектора весов регрессии, соответствующей каждому вокселю, для чего они были спроектированы в четырехмерное пространство с помощью метода главные компонент. В это же пространство были спроектированы и слова из аудиостимула. С помощью алгоритма k средних спроецированные слова были сгруппированы в 12 категорий. После чего авторы раскрасили пространство из первых трех главные векторов и визуализировали результат (см. \ref{huth_result}). 
+
+\begin{figure}[h]
+\includegraphics[scale=0.4]{galant_results.png}
+\centering
+\caption{Результаты из работы \cite{huth2016natural}.}
+\label{huth_result}
+\end{figure}
+
+Интересна проекция на первую компоненту. положительные знак имеют слова, относящиеся к человеку и человеческим взаимодействиям, отрицательную -- описания восприятия, местоположения, количества.
+Интересна проекция на первую компоненту. положительные знак имеют слова, относящиеся к человеку и человеческим взаимодействиям, отрицательную -- описания восприятия, местоположения, количества.
+
+\bibliography{diplomnaya_rabota}
+\bibliographystyle{plain}
+
+\end{document}
