@@ -1,0 +1,29 @@
+\begin{thebibliography}{1}
+
+\bibitem{abraham2014machine}
+Alexandre Abraham, Fabian Pedregosa, Michael Eickenberg, Philippe Gervais,
+  Andreas Muller, Jean Kossaifi, Alexandre Gramfort, Bertrand Thirion, and
+  G{\"a}el Varoquaux.
+\newblock Machine learning for neuroimaging with scikit-learn.
+\newblock {\em arXiv preprint arXiv:1412.3919}, 2014.
+
+\bibitem{hanke2014high}
+Michael Hanke, Florian~J Baumgartner, Pierre Ibe, Falko~R Kaule, Stefan
+  Pollmann, Oliver Speck, Wolf Zinke, and J{\"o}rg Stadler.
+\newblock A high-resolution 7-tesla fmri dataset from complex natural
+  stimulation with an audio movie.
+\newblock {\em Scientific data}, 1, 2014.
+
+\bibitem{huth2016natural}
+Alexander~G Huth, Wendy~A de~Heer, Thomas~L Griffiths, Fr{\'e}d{\'e}ric~E
+  Theunissen, and Jack~L Gallant.
+\newblock Natural speech reveals the semantic maps that tile human cerebral
+  cortex.
+\newblock {\em Nature}, 532(7600):453--458, 2016.
+
+\bibitem{qian2016bridging}
+Peng Qian, Xipeng Qiu, and Xuanjing Huang.
+\newblock Bridging lstm architecture and the neural dynamics during reading.
+\newblock {\em arXiv preprint arXiv:1604.06635}, 2016.
+
+\end{thebibliography}

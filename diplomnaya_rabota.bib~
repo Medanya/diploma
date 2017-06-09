@@ -1,0 +1,53 @@
+@article{amaro2006study,
+  title={Study design in fMRI: basic principles},
+  author={Amaro, Edson and Barker, Gareth J},
+  journal={Brain and cognition},
+  volume={60},
+  number={3},
+  pages={220--232},
+  year={2006},
+  publisher={Elsevier}
+}
+
+@article{huth2016natural,
+  title={Natural speech reveals the semantic maps that tile human cerebral cortex},
+  author={Huth, Alexander G and de Heer, Wendy A and Griffiths, Thomas L and Theunissen, Fr{\'e}d{\'e}ric E and Gallant, Jack L},
+  journal={Nature},
+  volume={532},
+  number={7600},
+  pages={453--458},
+  year={2016},
+  publisher={Nature Publishing Group}
+}
+
+@article{hanke2014high,
+  title={A high-resolution 7-Tesla fMRI dataset from complex natural stimulation with an audio movie},
+  author={Hanke, Michael and Baumgartner, Florian J and Ibe, Pierre and Kaule, Falko R and Pollmann, Stefan and Speck, Oliver and Zinke, Wolf and Stadler, J{\"o}rg},
+  journal={Scientific data},
+  volume={1},
+  year={2014},
+  publisher={Nature Publishing Group}
+}
+
+@article{qian2016bridging,
+  title={Bridging LSTM Architecture and the Neural Dynamics during Reading},
+  author={Qian, Peng and Qiu, Xipeng and Huang, Xuanjing},
+  journal={arXiv preprint arXiv:1604.06635},
+  year={2016}
+}
+
+@article{hanke2014high,
+  title={A high-resolution 7-Tesla fMRI dataset from complex natural stimulation with an audio movie},
+  author={Hanke, Michael and Baumgartner, Florian J and Ibe, Pierre and Kaule, Falko R and Pollmann, Stefan and Speck, Oliver and Zinke, Wolf and Stadler, J{\"o}rg},
+  journal={Scientific data},
+  volume={1},
+  year={2014},
+  publisher={Nature Publishing Group}
+}
+
+@article{abraham2014machine,
+  title={Machine learning for neuroimaging with scikit-learn},
+  author={Abraham, Alexandre and Pedregosa, Fabian and Eickenberg, Michael and Gervais, Philippe and Muller, Andreas and Kossaifi, Jean and Gramfort, Alexandre and Thirion, Bertrand and Varoquaux, G{\"a}el},
+  journal={arXiv preprint arXiv:1412.3919},
+  year={2014}
+}
