@@ -36,15 +36,6 @@
   year={2016}
 }
 
-@article{hanke2014high,
-  title={A high-resolution 7-Tesla fMRI dataset from complex natural stimulation with an audio movie},
-  author={Hanke, Michael and Baumgartner, Florian J and Ibe, Pierre and Kaule, Falko R and Pollmann, Stefan and Speck, Oliver and Zinke, Wolf and Stadler, J{\"o}rg},
-  journal={Scientific data},
-  volume={1},
-  year={2014},
-  publisher={Nature Publishing Group}
-}
-
 @article{abraham2014machine,
   title={Machine learning for neuroimaging with scikit-learn},
   author={Abraham, Alexandre and Pedregosa, Fabian and Eickenberg, Michael and Gervais, Philippe and Muller, Andreas and Kossaifi, Jean and Gramfort, Alexandre and Thirion, Bertrand and Varoquaux, G{\"a}el},

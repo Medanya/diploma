@@ -21,6 +21,14 @@ Alexander~G Huth, Wendy~A de~Heer, Thomas~L Griffiths, Fr{\'e}d{\'e}ric~E
   cortex.
 \newblock {\em Nature}, 532(7600):453--458, 2016.
 
+\bibitem{kikuchi2017sequence}
+Yukiko Kikuchi, Adam Attaheri, Benjamin Wilson, Ariane~E Rhone, Kirill~V
+  Nourski, Phillip~E Gander, Christopher~K Kovach, Hiroto Kawasaki, Timothy~D
+  Griffiths, Matthew~A Howard~III, et~al.
+\newblock Sequence learning modulates neural responses and oscillatory coupling
+  in human and monkey auditory cortex.
+\newblock {\em PLoS biology}, 15(4):e2000219, 2017.
+
 \bibitem{qian2016bridging}
 Peng Qian, Xipeng Qiu, and Xuanjing Huang.
 \newblock Bridging lstm architecture and the neural dynamics during reading.

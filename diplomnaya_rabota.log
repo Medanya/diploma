@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.5.13)  9 JUN 2017 19:43
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.5.13)  11 JUN 2017 23:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -71,9 +71,18 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
+(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
 (/usr/share/texlive/texmf-dist/tex/latex/t2/mathtext.sty
 Package: mathtext 1999/01/28 v1.0 transparent text-and-math defs
 LaTeX Info: Redefining \halign on input line 111.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/cleveref/cleveref.sty
+Package: cleveref 2013/12/28 v0.19 Intelligent cross-referencing
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2013/01/14 v2.14 AMS math features
@@ -153,11 +162,11 @@ LaTeX Font Info:    Try loading font information for T2A+cmr on input line 100.
 (/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )<<t2a.cmap>>)
-LaTeX Font Info:    Redeclaring symbol font `T2Aletters' on input line 13.
+LaTeX Font Info:    Redeclaring symbol font `T2Aletters' on input line 17.
 LaTeX Font Info:    Overwriting symbol font `T2Aletters' in version `normal'
-(Font)                  T2A/cmr/m/n --> T2A/cmr/m/it on input line 13.
+(Font)                  T2A/cmr/m/n --> T2A/cmr/m/it on input line 17.
 LaTeX Font Info:    Overwriting symbol font `T2Aletters' in version `bold'
-(Font)                  T2A/cmr/m/n --> T2A/cmr/m/it on input line 13.
+(Font)                  T2A/cmr/m/n --> T2A/cmr/m/it on input line 17.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2008/03/30 v1.1d Input encoding file
@@ -873,9 +882,6 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty
-Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
-)
 (/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip63
@@ -907,24 +913,24 @@ LaTeX Warning: Unused global option(s):
 (./diplomnaya_rabota.aux)
 \openout1 = `diplomnaya_rabota.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -994,7 +1000,7 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: hypcap package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box57
-Package hyperref Info: Link coloring OFF on input line 86.
+Package hyperref Info: Link coloring OFF on input line 90.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1004,45 +1010,45 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count142
 )
-LaTeX Info: Redefining \ref on input line 86.
-LaTeX Info: Redefining \pageref on input line 86.
-LaTeX Info: Redefining \nameref on input line 86.
+LaTeX Info: Redefining \ref on input line 90.
+LaTeX Info: Redefining \pageref on input line 90.
+LaTeX Info: Redefining \nameref on input line 90.
 
 (./diplomnaya_rabota.out) (./diplomnaya_rabota.out)
 \@outlinefile=\write3
 \openout3 = `diplomnaya_rabota.out'.
 
 <<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 123.
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 127.
 
  (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 123.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 127.
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <8> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 123.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 127.
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <6> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 123.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 123.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 127.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 127.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 123.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 127.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 123.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 127.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <6> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 123.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 127.
 <<t1.cmap>>
-LaTeX Font Info:    Try loading font information for U+msa on input line 123.
+LaTeX Font Info:    Try loading font information for U+msa on input line 127.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 123.
+LaTeX Font Info:    Try loading font information for U+msb on input line 127.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1056,337 +1062,478 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.143 \chapter
+l.149 \chapter
               {Р’РІРµРґРµРЅРёРµ} [1
 
 ]
 \IeC {\CYRCH }\IeC {\cyra }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyrsftsn } 1.
 
-Underfull \hbox (badness 1107) in paragraph at lines 148--149
-[]\T2A/cmr/m/n/12 Каждое ФМРТ измерение -- последовательность трехмерных сканов
- мозга,
+Underfull \hbox (badness 10000) in paragraph at lines 156--157
+\T2A/cmr/m/n/12 информацию по-разному: где левая сторона обрабатывала информаци
+ю
  []
 
-<images/fmrt_result.png, id=105, 1752.5475pt x 554.07pt>
-File: images/fmrt_result.png Graphic file (type png)
 
-<use images/fmrt_result.png>
-Package pdftex.def Info: images/fmrt_result.png used on input line 151.
-(pdftex.def)             Requested size: 350.5033pt x 110.81203pt.
-
-Underfull \hbox (badness 1796) in paragraph at lines 157--158
-[]\T2A/cmr/m/n/12 ФМРТ имеет несколько преимуществ перед другими методами измер
-ения
+Underfull \hbox (badness 1874) in paragraph at lines 158--159
+\T2A/cmr/m/n/12 мозга. Он пришел к выводу, что в нашем черепе не один мозг, а т
+ри,
  []
 
 [2
 
- <./images/fmrt_result.png (PNG copy)>]
-<images/fmrt.jpg, id=113, 949.5475pt x 512.91624pt>
+] <images/fmrt_result.png, id=137, 1752.5475pt x 554.07pt>
+File: images/fmrt_result.png Graphic file (type png)
+
+<use images/fmrt_result.png>
+Package pdftex.def Info: images/fmrt_result.png used on input line 169.
+(pdftex.def)             Requested size: 438.1358pt x 138.51715pt.
+ [3 <./images/fmrt_result.png (PNG copy)>]
+<images/fmrt.jpg, id=144, 949.5475pt x 512.91624pt>
 File: images/fmrt.jpg Graphic file (type jpg)
  <use images/fmrt.jpg>
-Package pdftex.def Info: images/fmrt.jpg used on input line 164.
-(pdftex.def)             Requested size: 284.86644pt x 153.87605pt.
+Package pdftex.def Info: images/fmrt.jpg used on input line 182.
+(pdftex.def)             Requested size: 332.3466pt x 179.52338pt.
 
-[3 <./images/fmrt.jpg>] <images/hrf.png, id=129, 597.23125pt x 482.80376pt>
+[4 <./images/fmrt.jpg>] <images/hrf.png, id=160, 597.23125pt x 482.80376pt>
 File: images/hrf.png Graphic file (type png)
 
 <use images/hrf.png>
-Package pdftex.def Info: images/hrf.png used on input line 185.
-(pdftex.def)             Requested size: 238.88826pt x 193.11807pt.
- <images/mozg.png, id=131, 744.7825pt x 374.39874pt>
+Package pdftex.def Info: images/hrf.png used on input line 203.
+(pdftex.def)             Requested size: 268.75157pt x 217.25967pt.
+ <images/mozg.png, id=162, 744.7825pt x 374.39874pt>
 File: images/mozg.png Graphic file (type png)
 
 <use images/mozg.png>
-Package pdftex.def Info: images/mozg.png used on input line 200.
-(pdftex.def)             Requested size: 297.90771pt x 149.75684pt.
+Package pdftex.def Info: images/mozg.png used on input line 218.
+(pdftex.def)             Requested size: 335.14903pt x 168.47787pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[4 <./images/hrf.png>] [5 <./images/mozg.png>] [6]
+[5 <./images/hrf.png>] [6 <./images/mozg.png>]
+<images/brain_anatomy.jpg, id=175, 499.8675pt x 481.8pt>
+File: images/brain_anatomy.jpg Graphic file (type jpg)
+
+<use images/brain_anatomy.jpg>
+Package pdftex.def Info: images/brain_anatomy.jpg used on input line 236.
+(pdftex.def)             Requested size: 199.94345pt x 192.71658pt.
+
+Underfull \hbox (badness 2277) in paragraph at lines 242--245
+[]\T2A/cmr/m/n/12 Височные доли в верхних отделах обрабатывают слуховые ощущени
+я,
+ []
+
+[7 <./images/brain_anatomy.jpg>] [8]
 \IeC {\CYRCH }\IeC {\cyra }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyrsftsn } 2.
-[7
+
+Underfull \hbox (badness 2698) in paragraph at lines 255--256
+[]\T2A/cmr/m/n/12 В случае, если для каждого вокселя своя модель из класса $\OM
+S/cmsy/m/n/12 F$\T2A/cmr/m/n/12 , то
+ []
+
+[9
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 271--273
+[]\T2A/cmr/m/n/12 Создание экспериментальной среды, допускающей легкую
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 286--287
+[]\T2A/cmr/m/n/12 Новизна данной работы заключается в применение нелинейных
+ []
+
+[10] [11]
 \IeC {\CYRCH }\IeC {\cyra }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyrsftsn } 3.
-<images/galant_results.png, id=159, 1209.51875pt x 856.19875pt>
+<images/galant_results.png, id=209, 1209.51875pt x 856.19875pt>
 File: images/galant_results.png Graphic file (type png)
 
 <use images/galant_results.png>
-Package pdftex.def Info: images/galant_results.png used on input line 242.
+Package pdftex.def Info: images/galant_results.png used on input line 292.
 (pdftex.def)             Requested size: 483.79893pt x 342.47343pt.
 
-Overfull \hbox (28.55482pt too wide) in paragraph at lines 242--244
+Overfull \hbox (28.55482pt too wide) in paragraph at lines 292--294
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 248--249
+Underfull \hbox (badness 6268) in paragraph at lines 298--299
 []\T2A/cmr/m/n/12 Работа [[]] группы американских нейробиологов посвящена созда
 нию
  []
 
 
-Underfull \hbox (badness 2512) in paragraph at lines 248--249
+Underfull \hbox (badness 2512) in paragraph at lines 298--299
 \T2A/cmr/m/n/12 Ученым удалось выделить области на фронтальной коре, ответствен
 ные за
  []
 
-[8
+[12
 
  <./images/galant_results.png>]
-<images/map_result_huth.png, id=170, 1301.86375pt x 564.1075pt>
+<images/map_result_huth.png, id=220, 1301.86375pt x 564.1075pt>
 File: images/map_result_huth.png Graphic file (type png)
 
 <use images/map_result_huth.png>
-Package pdftex.def Info: images/map_result_huth.png used on input line 251.
+Package pdftex.def Info: images/map_result_huth.png used on input line 301.
 (pdftex.def)             Requested size: 481.68205pt x 208.71649pt.
 
-Overfull \hbox (26.43794pt too wide) in paragraph at lines 251--253
+Overfull \hbox (26.43794pt too wide) in paragraph at lines 301--303
  [][] 
  []
 
-
-Underfull \hbox (badness 1968) in paragraph at lines 261--262
-[]\T2A/cmr/m/n/12 Интересна проекция на первую компоненту: положительные знак и
-меют
- []
-
-[9 <./images/map_result_huth.png>]
-Underfull \hbox (badness 3838) in paragraph at lines 263--264
+[13 <./images/map_result_huth.png>]
+Underfull \hbox (badness 1210) in paragraph at lines 313--314
 []\T2A/cmr/m/n/12 Также интересно, что височные зоны, отвечающие за анализ слух
 овой
  []
 
-<images/gallant_view1.png, id=181, 1148.29pt x 558.085pt>
+<images/gallant_view1.png, id=231, 1148.29pt x 558.085pt>
 File: images/gallant_view1.png Graphic file (type png)
 
 <use images/gallant_view1.png>
-Package pdftex.def Info: images/gallant_view1.png used on input line 266.
+Package pdftex.def Info: images/gallant_view1.png used on input line 316.
 (pdftex.def)             Requested size: 344.48965pt x 167.42679pt.
 
-<images/lstm.png, id=184, 1156.32pt x 810.02625pt>
+<images/lstm.png, id=234, 1156.32pt x 810.02625pt>
 File: images/lstm.png Graphic file (type png)
  <use images/lstm.png>
-Package pdftex.def Info: images/lstm.png used on input line 276.
+Package pdftex.def Info: images/lstm.png used on input line 326.
 (pdftex.def)             Requested size: 346.89868pt x 243.00975pt.
 
-[10 <./images/gallant_view1.png> <./images/lstm.png>]
-Underfull \hbox (badness 1142) in paragraph at lines 285--288
+Underfull \hbox (badness 1968) in paragraph at lines 332--333
+[]\T2A/cmr/m/n/12 В статье [[]] изучалось предсказательная способность LSTM юни
+тов в
+ []
+
+
+Underfull \hbox (badness 2980) in paragraph at lines 332--333
+\T2A/cmr/m/n/12 зависимости от архитектуры (наличия гейтов). Эксперимент был ус
+троен
+ []
+
+[14 <./images/gallant_view1.png> <./images/lstm.png>]
+Underfull \hbox (badness 1142) in paragraph at lines 335--338
 \T2A/cmr/m/n/12 активацией мозга, нормализованным на отрезок [0,1]. Несмотря на
  то, что
  []
 
 
-Underfull \hbox (badness 1173) in paragraph at lines 285--288
+Underfull \hbox (badness 1173) in paragraph at lines 335--338
 \T2A/cmr/m/n/12 статья была посвящена изучению LSTM юнитов, авторы получили неп
 лохую
  []
 
-<images/neural_nets.png, id=197, 589.20125pt x 278.03876pt>
+<images/neural_nets.png, id=247, 589.20125pt x 278.03876pt>
 File: images/neural_nets.png Graphic file (type png)
 
 <use images/neural_nets.png>
-Package pdftex.def Info: images/neural_nets.png used on input line 290.
+Package pdftex.def Info: images/neural_nets.png used on input line 340.
 (pdftex.def)             Requested size: 412.43805pt x 194.6258pt.
- [11 <./images/neural_nets.png>]
+ [15 <./images/neural_nets.png>]
 \IeC {\CYRCH }\IeC {\cyra }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyrsftsn } 4.
-<images/word_forrest.png, id=206, 756.8275pt x 316.18124pt>
+
+Underfull \hbox (badness 1708) in paragraph at lines 354--355
+\T2A/cmr/m/n/12 шума с помощью библиотеки FLIRT, затем ФМРТ сигнал был посегмен
+тно
+ []
+
+<images/word_forrest.png, id=256, 756.8275pt x 316.18124pt>
 File: images/word_forrest.png Graphic file (type png)
 
 <use images/word_forrest.png>
-Package pdftex.def Info: images/word_forrest.png used on input line 307.
+Package pdftex.def Info: images/word_forrest.png used on input line 357.
 (pdftex.def)             Requested size: 378.41283pt x 158.09023pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[12
 
-] <images/schema.png, id=216, 752.8125pt x 153.57375pt>
+Underfull \hbox (badness 3668) in paragraph at lines 363--364
+\T2A/cmr/m/n/12 слова из транскрипции аудио и момента его произношения (выравни
+вание
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 363--364
+\T2A/cmr/m/n/12 транскрипции). Так как транскрипция отсутствовала, она создавал
+ась
+ []
+
+
+Underfull \hbox (badness 1297) in paragraph at lines 363--364
+\T2A/cmr/m/n/12 самостоятельно. Сначала на основе описания сцен и субтитров соз
+давалась
+ []
+
+
+Underfull \hbox (badness 1033) in paragraph at lines 363--364
+\T2A/cmr/m/n/12 аудио подавалась на вход библиотеке ae-neas, которая выдавала д
+ля каждого
+ []
+
+[16
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 365--366
+\T2A/cmr/m/n/12 слов интерполировались с ядром Ланшица, чтобы согласовать момен
+ты
+ []
+
+<images/schema.png, id=265, 752.8125pt x 153.57375pt>
 File: images/schema.png Graphic file (type png)
-
-<use images/schema.png>
-Package pdftex.def Info: images/schema.png used on input line 318.
+ <use images/schema.png>
+Package pdftex.def Info: images/schema.png used on input line 368.
 (pdftex.def)             Requested size: 301.11966pt x 61.4284pt.
 
-<graphics/correlations2.png, id=218, 665.48625pt x 360.34625pt>
+<graphics/correlations2.png, id=267, 665.48625pt x 360.34625pt>
 File: graphics/correlations2.png Graphic file (type png)
 
 <use graphics/correlations2.png>
-Package pdftex.def Info: graphics/correlations2.png used on input line 329.
-(pdftex.def)             Requested size: 332.74231pt x 180.17268pt.
+Package pdftex.def Info: graphics/correlations2.png used on input line 379.
+(pdftex.def)             Requested size: 465.83719pt x 252.24065pt.
+
+Overfull \hbox (10.59308pt too wide) in paragraph at lines 379--381
+ [][] 
+ []
+
+[17 <./images/word_forrest.png> <./images/schema.png>]
+<graphics/sub3_prep2.png, id=278, 398.48875pt x 368.37625pt>
+File: graphics/sub3_prep2.png Graphic file (type png)
+
+<use graphics/sub3_prep2.png>
+Package pdftex.def Info: graphics/sub3_prep2.png used on input line 391.
+(pdftex.def)             Requested size: 239.0951pt x 221.02744pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[13 <./images/word_forrest.png> <./images/schema.png>]
-<graphics/sub3_prep2.png, id=228, 398.48875pt x 368.37625pt>
-File: graphics/sub3_prep2.png Graphic file (type png)
-
-<use graphics/sub3_prep2.png>
-Package pdftex.def Info: graphics/sub3_prep2.png used on input line 338.
-(pdftex.def)             Requested size: 239.0951pt x 221.02744pt.
-
-<graphics/sub3_prep2_bestvoxel.png, id=230, 911.405pt x 310.15875pt>
+<graphics/sub3_prep2_bestvoxel.png, id=279, 911.405pt x 310.15875pt>
 File: graphics/sub3_prep2_bestvoxel.png Graphic file (type png)
 
 <use graphics/sub3_prep2_bestvoxel.png>
 Package pdftex.def Info: graphics/sub3_prep2_bestvoxel.png used on input line 3
-47.
+98.
 (pdftex.def)             Requested size: 455.70139pt x 155.079pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<graphics/sub12_trunk01.png, id=231, 758.835pt x 540.0175pt>
+<graphics/sub12_trunk01.png, id=280, 758.835pt x 540.0175pt>
 File: graphics/sub12_trunk01.png Graphic file (type png)
 
 <use graphics/sub12_trunk01.png>
-Package pdftex.def Info: graphics/sub12_trunk01.png used on input line 354.
+Package pdftex.def Info: graphics/sub12_trunk01.png used on input line 405.
 (pdftex.def)             Requested size: 493.23691pt x 351.0072pt.
 
-Overfull \hbox (37.9928pt too wide) in paragraph at lines 354--357
+Overfull \hbox (37.9928pt too wide) in paragraph at lines 405--407
  [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/all_6.png, id=232, 1104.125pt x 770.88pt>
+<images/all_6.png, id=281, 1104.125pt x 770.88pt>
 File: images/all_6.png Graphic file (type png)
  <use images/all_6.png>
-Package pdftex.def Info: images/all_6.png used on input line 362.
+Package pdftex.def Info: images/all_6.png used on input line 412.
 (pdftex.def)             Requested size: 441.64218pt x 308.34654pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/voxel_to_choose1.png, id=234, 360.34625pt x 271.0125pt>
+<images/all6_3d.png, id=283, 1027.84pt x 722.7pt>
+File: images/all6_3d.png Graphic file (type png)
+ <use images/all6_3d.png>
+Package pdftex.def Info: images/all6_3d.png used on input line 419.
+(pdftex.def)             Requested size: 411.12872pt x 289.07487pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 3088) in paragraph at lines 425--426
+\T2A/cmr/m/n/12 оптимистично, и убеждает в том, что обладает хорошей предсказат
+ельной
+ []
+
+[18 <./graphics/correlations2.png>]
+Underfull \hbox (badness 1616) in paragraph at lines 427--428
+\T2A/cmr/m/n/12 полученные результаты в трехмерный тензор, можно визуализироват
+ь карты
+ []
+
+
+Underfull \hbox (badness 1173) in paragraph at lines 429--430
+\T2A/cmr/m/n/12 повторяют друг друга: хорошо предсказываются височные доли (кор
+реляция
+ []
+
+[19 <./graphics/sub3_prep2.png> <./graphics/sub3_prep2_bestvoxel.png>]
+Underfull \hbox (badness 1292) in paragraph at lines 434--436
+\T2A/cmr/m/n/12 косинусное расстояние между представлением которых максимально 
+с весами
+ []
+
+
+Underfull \hbox (badness 6173) in paragraph at lines 437--438
+[]\T2A/cmr/m/n/12 Интересно, например, что если брать два вокселя с одинаковыми
+
+ []
+
+[20 <./graphics/sub12_trunk01.png>]
+<images/voxel_to_choose1.png, id=311, 360.34625pt x 271.0125pt>
 File: images/voxel_to_choose1.png Graphic file (type png)
 
 <use images/voxel_to_choose1.png>
-Package pdftex.def Info: images/voxel_to_choose1.png used on input line 370.
+Package pdftex.def Info: images/voxel_to_choose1.png used on input line 452.
 (pdftex.def)             Requested size: 180.17268pt x 135.5059pt.
 
-<images/voxel_to_choose2.png, id=235, 356.33125pt x 269.005pt>
+<images/voxel_to_choose2.png, id=312, 356.33125pt x 269.005pt>
 File: images/voxel_to_choose2.png Graphic file (type png)
 
 <use images/voxel_to_choose2.png>
-Package pdftex.def Info: images/voxel_to_choose2.png used on input line 371.
+Package pdftex.def Info: images/voxel_to_choose2.png used on input line 453.
 (pdftex.def)             Requested size: 178.16518pt x 134.50217pt.
-
-<images/sub9_names.png, id=236, 920.43875pt x 764.8575pt>
+ [21 <./images/all_6.png>] [22 <./images/all6_3d.png> <./images/voxel_to_choose
+1.png> <./images/voxel_to_choose2.png>]
+<images/sub9_names.png, id=328, 920.43875pt x 764.8575pt>
 File: images/sub9_names.png Graphic file (type png)
 
 <use images/sub9_names.png>
-Package pdftex.def Info: images/sub9_names.png used on input line 377.
+Package pdftex.def Info: images/sub9_names.png used on input line 464.
 (pdftex.def)             Requested size: 506.24287pt x 420.67291pt.
 
-Overfull \hbox (50.99876pt too wide) in paragraph at lines 377--378
-[][] 
+Overfull \hbox (50.99876pt too wide) in paragraph at lines 464--465
+ [][] 
  []
 
-<images/sub15_names.png, id=237, 991.705pt x 745.78625pt>
+<images/sub15_names.png, id=329, 991.705pt x 745.78625pt>
 File: images/sub15_names.png Graphic file (type png)
 
 <use images/sub15_names.png>
-Package pdftex.def Info: images/sub15_names.png used on input line 383.
+Package pdftex.def Info: images/sub15_names.png used on input line 471.
 (pdftex.def)             Requested size: 545.43944pt x 410.18372pt.
 
-Overfull \hbox (90.19533pt too wide) in paragraph at lines 383--384
-[][] 
+Overfull \hbox (90.19533pt too wide) in paragraph at lines 471--472
+ [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[14 <./graphics/correlations2.png> <./graphics/sub3_prep2.png>]
-Underfull \hbox (badness 4752) in paragraph at lines 392--394
-[]\T2A/cmr/m/n/12 На рисунке []4.5[] показан типичный сигнал ФМРТ и его предска
-зание,
+<images/demo.png, id=330, 1025.8325pt x 531.9875pt>
+File: images/demo.png Graphic file (type png)
+ <use images/demo.png>
+Package pdftex.def Info: images/demo.png used on input line 478.
+(pdftex.def)             Requested size: 461.62038pt x 239.39217pt.
+
+Overfull \hbox (6.37627pt too wide) in paragraph at lines 478--479
+ [][] 
  []
 
-[15 <./graphics/sub3_prep2_bestvoxel.png>]
-Underfull \hbox (badness 2443) in paragraph at lines 414--415
-[]\T2A/cmr/m/n/12 Можно выделить слова, со смыслом "действительно", а также гла
-голы.
- []
 
-[16 <./graphics/sub12_trunk01.png>]
-<graphics/sub3_net.png, id=264, 605.26125pt x 431.6125pt>
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<graphics/sub3_net.png, id=331, 605.26125pt x 431.6125pt>
 File: graphics/sub3_net.png Graphic file (type png)
 
 <use graphics/sub3_net.png>
-Package pdftex.def Info: graphics/sub3_net.png used on input line 422.
+Package pdftex.def Info: graphics/sub3_net.png used on input line 487.
 (pdftex.def)             Requested size: 302.62987pt x 215.80571pt.
- [17 <./images/all_6.png> <./images/voxel_to_choose1.png> <./images/voxel_to_ch
-oose2.png>] [18 <./images/sub9_names.png>]
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Underfull \hbox (badness 1571) in paragraph at lines 427--428
-\T2A/cmr/m/n/12 Горизонтальной линией показан результат гребневой регрессии. Ви
-дно, что
+[23 <./images/sub9_names.png>]
+Underfull \hbox (badness 1152) in paragraph at lines 494--496
+\T2A/cmr/m/n/12 Генерация батчей для обучения происходила следующим образом: сн
+ачала с
  []
 
-
-Underfull \hbox (badness 1320) in paragraph at lines 429--431
-\T2A/cmr/m/n/12 образом, чтобы треть хотя бы одна треть слов из статьи присутст
-вовала в
- []
-
-[19 <./images/sub15_names.png>]
-<images/lstm-architecture.png, id=282, 589.20125pt x 385.44pt>
+[24 <./images/sub15_names.png>]
+<images/lstm-architecture.png, id=346, 589.20125pt x 385.44pt>
 File: images/lstm-architecture.png Graphic file (type png)
 
 <use images/lstm-architecture.png>
-Package pdftex.def Info: images/lstm-architecture.png used on input line 434.
+Package pdftex.def Info: images/lstm-architecture.png used on input line 499.
 (pdftex.def)             Requested size: 294.5999pt x 192.71953pt.
 
-<images/text_crop_wb.png, id=283, 923.45pt x 239.89626pt>
+Underfull \hbox (badness 3646) in paragraph at lines 504--506
+[]\T2A/cmr/m/n/12 Далее через эту сеть был пропущен аудиостимул и каждому слову
+
+ []
+
+
+Underfull \hbox (badness 1087) in paragraph at lines 504--506
+\T2A/cmr/m/n/12 дает результат не хуже гребневой регрессии, при этом использует
+ стомерное
+ []
+
+<images/text_crop_wb.png, id=347, 923.45pt x 239.89626pt>
 File: images/text_crop_wb.png Graphic file (type png)
 
 <use images/text_crop_wb.png>
-Package pdftex.def Info: images/text_crop_wb.png used on input line 444.
+Package pdftex.def Info: images/text_crop_wb.png used on input line 509.
 (pdftex.def)             Requested size: 461.72386pt x 119.94783pt.
 
-Overfull \hbox (6.47975pt too wide) in paragraph at lines 444--445
+Overfull \hbox (6.47975pt too wide) in paragraph at lines 509--510
 [][] 
  []
 
-[20 <./graphics/sub3_net.png>] [21 <./images/lstm-architecture.png (PNG copy)> 
-<./images/text_crop_wb.png>] [22]
+
+Underfull \hbox (badness 1009) in paragraph at lines 514--515
+\T2A/cmr/m/n/12 этого мы рассмотрели тот lstm unit, вес которого по модулю наиб
+ольший и
+ []
+
+[25 <./images/demo.png>] [26 <./graphics/sub3_net.png> <./images/lstm-architect
+ure.png (PNG copy)> <./images/text_crop_wb.png>]
 \IeC {\CYRCH }\IeC {\cyra }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyrsftsn } 5.
-[23
+
+Underfull \hbox (badness 2310) in paragraph at lines 518--519
+[]\T2A/cmr/m/n/12 В следующей таблице представлено сравнение моделей по несколь
+ким
+ []
+
+
+Overfull \hbox (36.24673pt too wide) in paragraph at lines 522--531
+[][] 
+ []
+
+[27
 
 ]
 \IeC {\CYRCH }\IeC {\cyra }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyrsftsn } 6.
-(./diplomnaya_rabota.bbl [24
 
-])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 458.
- [25
+Underfull \hbox (badness 10000) in paragraph at lines 543--544
+[]\T2A/cmr/m/n/12 Метод, использующий представление, полученное рекуррентной се
+ти
+ []
+
+[28
+
+] (./diplomnaya_rabota.bbl [29])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 557.
+ [30
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 458.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 557.
  (./diplomnaya_rabota.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 458.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 458.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 557.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 557.
 Package rerunfilecheck Info: File `diplomnaya_rabota.out' has not changed.
-(rerunfilecheck)             Checksum: 9CE22476CCB0B2EC5C9FDD69E7F72FF7;3412.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 458.
+(rerunfilecheck)             Checksum: 47C926B038BE8531061E9A84A5F7FD60;4399.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 557.
  ) 
 Here is how much of TeX's memory you used:
- 13769 strings out of 493304
- 191456 string characters out of 6139871
- 276432 words of memory out of 5000000
- 16868 multiletter control sequences out of 15000+600000
+ 15243 strings out of 493304
+ 224616 string characters out of 6139871
+ 322965 words of memory out of 5000000
+ 18315 multiletter control sequences out of 15000+600000
  26233 words of font info for 56 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 41i,7n,44p,1426b,430s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,7n,44p,1426b,443s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t2a.enc}</usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dis
@@ -1403,10 +1550,10 @@ blic/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx24
 exmf/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf/fonts/type1/pub
 lic/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfxc144
 0.pfb>
-Output written on diplomnaya_rabota.pdf (26 pages, 6289156 bytes).
+Output written on diplomnaya_rabota.pdf (31 pages, 7464389 bytes).
 PDF statistics:
- 390 PDF objects out of 1000 (max. 8388607)
- 306 compressed objects within 4 object streams
- 77 named destinations out of 1000 (max. 500000)
- 268 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 457 PDF objects out of 1000 (max. 8388607)
+ 365 compressed objects within 4 object streams
+ 93 named destinations out of 1000 (max. 500000)
+ 323 words of extra memory for PDF output out of 10000 (max. 10000000)
 
